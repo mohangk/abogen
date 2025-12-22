@@ -54,7 +54,7 @@ Issues = "https://github.com/denizsafak/abogen/issues"
 abogen = "abogen.main:main"
 
 [project.scripts]
-abogen-cli = "abogen.main:main"
+abogen-cli = "abogen.cli:main"
 
 [tool.hatch.build.targets.sdist]
 exclude = [
